@@ -1,0 +1,16 @@
+# Eval output written from inside the workspace container.
+.artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments (each subproject also ignores its own)
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
